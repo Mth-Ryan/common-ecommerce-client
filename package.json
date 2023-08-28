@@ -1,0 +1,28 @@
+{
+  "name": "common-ecommerce-client",
+  "version": "0.1.0",
+  "description": "Common Ecommerce Typescript/Javascript client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mth-Ryan/common-ecommerce-client.git"
+  },
+  "author": "Mateus Ryan <mthryan@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mth-Ryan/common-ecommerce-client/issues"
+  },
+  "homepage": "https://github.com/Mth-Ryan/common-ecommerce-client#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  }
+}

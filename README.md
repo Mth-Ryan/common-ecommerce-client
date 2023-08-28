@@ -1,2 +1,3 @@
 # common-ecommerce-client
-Common Ecommerce service typescript client
+
+Common Ecommerce service Typescript/Javascript client
