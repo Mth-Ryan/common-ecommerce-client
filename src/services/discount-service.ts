@@ -1,5 +1,5 @@
 import { HttpClientFactory } from "../clients/http-client-factory";
-import { IdInput } from "../models/core/IdInput";
+import { IdInput } from "../models/core/id-input";
 import { PaginatedData } from "../models/core/paginated-data";
 import { QueryOptions } from "../models/core/query-options";
 import { DiscountInput } from "../models/discounts/discount-input";

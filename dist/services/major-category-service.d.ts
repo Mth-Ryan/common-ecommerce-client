@@ -14,6 +14,6 @@ export declare class MajorCategoryService extends ContentService<MajorCategoryIn
     baseRoute: string;
     clientFactory: HttpClientFactory;
     constructor(clientFactory: HttpClientFactory);
-    getAllSubs(id: string, query: QueryOptions): Promise<PaginatedData<import("../models/core/base-content-short-model").BaseContentShortModel>>;
-    getAllSubsByTitleSlug(titleSlug: string, query: QueryOptions): Promise<PaginatedData<import("../models/core/base-content-short-model").BaseContentShortModel>>;
+    getAllSubs(id: string, query: QueryOptions): Promise<PaginatedData<import("..").BaseContentShortModel>>;
+    getAllSubsByTitleSlug(titleSlug: string, query: QueryOptions): Promise<PaginatedData<import("..").BaseContentShortModel>>;
 }
