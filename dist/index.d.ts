@@ -8,7 +8,7 @@ export { BaseContentModel } from "./models/core/base-content-model";
 export { BaseContentShortModel } from "./models/core/base-content-short-model";
 export { PaginatedData } from "./models/core/paginated-data";
 export { QueryOptions } from "./models/core/query-options";
-export { IdInput } from "./models/core/IdInput";
+export { IdInput } from "./models/core/id-input";
 export { DiscountInput } from "./models/discounts/discount-input";
 export { DiscountOutput } from "./models/discounts/discount-output";
 export { DiscountShortOutput } from "./models/discounts/discount-short-output";
