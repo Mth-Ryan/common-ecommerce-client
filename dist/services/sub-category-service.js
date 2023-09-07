@@ -21,6 +21,38 @@ class SubCategoryService extends content_service_1.ContentService {
         this.baseRoute = "/SubCategories";
         this.clientFactory = clientFactory;
     }
+    getByIdWithProducts(id, query) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetByIdWithProducts/${id}`, query));
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getByTitleSlugWithProducts(titleSlug, query) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetByIdWithProducts/${titleSlug}`, query));
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getAllWithProducts(query) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetAllWithProducts`, query));
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getMainListWithProducts(query) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetMainListWithProducts`, query));
+            const data = yield response.json();
+            return data;
+        });
+    }
     getAllProducts(id, query) {
         return __awaiter(this, void 0, void 0, function* () {
             const client = this.clientFactory.create();

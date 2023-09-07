@@ -17,6 +17,8 @@ export { IdInput } from "./models/core/id-input";
 export { DiscountInput } from "./models/discounts/discount-input";
 export { DiscountOutput } from "./models/discounts/discount-output";
 export { DiscountShortOutput } from "./models/discounts/discount-short-output";
+export { DiscountOutputWithProducts } from "./models/discounts/discount-output-with-products";
+export { DiscountShortOutputWithProducts } from "./models/discounts/discount-short-output-with-products";
 
 // Major Catgegory models
 export { MajorCategoryInput } from "./models/major-categories/major-category-input";
@@ -27,6 +29,8 @@ export { MajorCategoryShortOutput } from "./models/major-categories/major-catego
 export { SubCategoryInput } from "./models/sub-categories/sub-category-input";
 export { SubCategoryOutput } from "./models/sub-categories/sub-category-output";
 export { SubCategoryShortOutput } from "./models/sub-categories/sub-category-short-output";
+export { SubCategoryOutputWithProducts } from "./models/sub-categories/sub-category-output-with-products";
+export { SubCategoryShortOutputWithProducts } from "./models/sub-categories/sub-category-short-output-with-products";
 
 // Product models
 export { ProductInput } from "./models/products/product-input";

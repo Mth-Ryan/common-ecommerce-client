@@ -21,6 +21,46 @@ class DiscountService extends content_service_1.ContentService {
         this.baseRoute = "/Discounts";
         this.clientFactory = clientFactory;
     }
+    getByIdWithProducts(id, query, opts) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetByIdWithProducts/${id}`, query), opts);
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getByTitleSlugWithProducts(titleSlug, query, opts) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetByTitleSlugWithProducts/${titleSlug}`, query), opts);
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getAllWithProducts(query, opts) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetAllWithProducts`, query), opts);
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getMainListWithProducts(query, opts) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetMainListWithProducts`, query), opts);
+            const data = yield response.json();
+            return data;
+        });
+    }
+    getAllActiveWithProducts(query, opts) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const client = this.clientFactory.create();
+            const response = yield client.get((0, query_builder_1.default)(`${this.baseRoute}/GetAllActiveWithProducts`, query), opts);
+            const data = yield response.json();
+            return data;
+        });
+    }
     getAllProducts(id, query) {
         return __awaiter(this, void 0, void 0, function* () {
             const client = this.clientFactory.create();
