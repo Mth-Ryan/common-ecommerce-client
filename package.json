@@ -1,6 +1,6 @@
 {
   "name": "common-ecommerce-client",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Common Ecommerce Typescript/Javascript client",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
