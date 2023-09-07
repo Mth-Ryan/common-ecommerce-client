@@ -46,6 +46,7 @@ export { UpdateNameInput } from "./models/user/update-name-input";
 export { UpdatePersonalInfoInput } from "./models/user/update-personal-info-input";
 export { RefreshTokenInput } from "./models/user/refresh-token-input";
 export { TokensOutput } from "./models/user/tokens-output";
+export { TokenClaims } from "./models/user/token-claims";
 
 export function CesRestClient(apiOrigin: string, acessToken?: string) {
     const factory = new HttpClientFactory(apiOrigin, acessToken);
